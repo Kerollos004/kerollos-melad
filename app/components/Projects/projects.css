@@ -1,0 +1,38 @@
+.layer{
+    background-color: rgba(14, 44, 78, 0.8);
+}
+.project:hover img{
+    transform: scale(1.2);
+}
+.project:hover .layer{
+    left: 0;
+}
+
+
+/* container */
+
+.swiper-pagination {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* bullet */
+.swiper-pagination-bullet {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #60a5fa; /* blue-400 */
+    opacity: 0.6;
+    margin-right: 5px;
+}
+
+/* active bullet */
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}

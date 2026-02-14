@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+NZ+Basic:wght@100..400&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+    transition: all .4s ;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: 0;
+}
+
+p{
+    line-height: 1.4;
+}
+
+
+
+
+body.dark main {
+    background-color: rgb(38, 41, 53);
+    background-image:
+    linear-gradient(to right, rgba(71,85,105,0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(71,85,105,0.3) 1px, transparent 1px),
+    radial-gradient(circle at 50% 50%, rgba(139,92,246,0.15) 0%, transparent 70%);
+    background-size: 32px 32px, 32px 32px, 100% 100%;
+}
+
+body.light main {
+    background-color: white;
+    background-image:
+        linear-gradient(to right, rgba(229,231,235,0.8) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(229,231,235,0.8) 1px, transparent 1px),
+        radial-gradient(circle 500px at 20% 100%, rgba(139,92,246,0.3), transparent),
+        radial-gradient(circle 500px at 100% 80%, rgba(59,130,246,0.3), transparent);
+    background-size: 48px 48px, 48px 48px, 100% 100%, 100% 100%;
+}
+
+body.dark p,
+body.dark h3   {
+    color: white;
+}
+
+
+
