@@ -19,15 +19,15 @@ interface paragraph {
 export const about:paragraph [] = [
     {
         id: 1,
-        p: "My journey with programming started as a self-taught path driven by curiosity and the desire to build real things, not just follow tutorials. Coming from a non-technical academic background, I had to rely heavily on discipline, consistency, and problem-solving to move forward. Programming gradually shifted from being something I was learning into something I genuinely enjoy doing and thinking about.",
+        p: "My journey with programming started as a self-taught path driven by curiosity and the desire to build real things, not just follow tutorials. Coming from a non-technical academic background, I had to rely heavily on discipline, consistency.",
     },
     {
         id: 2, 
-        p:"During my frontend journey, I focused on building solid foundations using modern tools and practices. I worked with technologies like JavaScript, React, Next.js, and Framer Motion, paying close attention to clean UI, performance, and user experience. Through real projects, I learned how to structure applications, think in components, and translate ideas into functional, responsive interfaces rather than just visually appealing pages."
+        p:"During my frontend journey, I focused on building solid foundations using modern tools and practices. I worked with technologies like JavaScript, React, Next.js, and Framer Motion, paying close attention to clean UI, performance, and user experience. "
     },
     {
         id: 3, 
-        p:"Currently, I’m transitioning into the backend world by starting the Node.js track, with the goal of becoming a well-rounded full-stack developer. My focus is on understanding how systems work behind the scenes, building scalable APIs, handling data, and connecting frontend applications to real backend logic. I see this step as a natural continuation of my journey, and I’m committed to growing steadily through real projects and continuous learning."
+        p:"Currently, I’m transitioning into the backend world by starting the Node.js track, with the goal of becoming a well-rounded full-stack developer. My focus is on understanding how systems work behind the scenes, building scalable APIs, handling data, and connecting frontend applications to real backend logic"
     }
 ]
 export const TitleClass: string = "title text-3xl capitalize mb-5  text-blue-400 relative "
