@@ -73,8 +73,8 @@ export const skills: skill[] = [
     {  name: "tailwind css", img: "/imgs/Tailwind CSS.png" },
     {  name: "react js", img: "/imgs/react.png" },
     {  name: "next js", img: "/imgs/Next.js.png" },
-    {  name: "redux toolkit", img: "/imgs/redux.png" },
-    { name: "firebase", img: "/imgs/firebase.png"},
+    {  name: "redux toolkit", img: "/imgs/Redux.png" },
+    { name: "firebase", img: "/imgs/Firebase.png"},
     { name: "git", img: "/imgs/Git.png" },
     { name: "github", img: "/imgs/GitHub.png" },
 ]

@@ -140,7 +140,8 @@ return (
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true, amount: 0.3 }}
-                transition={{duration:1 , delay:1 }}
+                transition={{ duration: 1, delay: 1 }}
+                className="about-img"
             >
                 <Image
                     className='w-full h-85 object-cover rounded-3xl border-4 border-blue-400 '
