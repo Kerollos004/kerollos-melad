@@ -116,15 +116,7 @@ export default function AboutSection() {
 
 return (
     <section id="about">
-        <motion.h1
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    viewport={{ once: true, amount: 0.4 }}
-                    transition={{ duration: 1 , delay:1 }}
-                    className={TitleClass}
-                >
-                    about me
-        </motion.h1>
+        
         <article className='  grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-2 gap-3.5 py-7'>
             <motion.article
                 initial={{  opacity: 0 }}
@@ -132,6 +124,15 @@ return (
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{duration:1}}
             >
+                <motion.h1
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true, amount: 0.4 }}
+                    transition={{ duration: 1 , delay:1 }}
+                    className={TitleClass}
+                >
+                    about me
+                </motion.h1>
                 {aboutHtml}
             </motion.article >
 
