@@ -18,16 +18,16 @@ interface paragraph {
 }
 export const about:paragraph [] = [
     {
-        id: 1, 
-        p:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium harum consequatur modi nostrum sequi ipsa quibusdam officia maiores corrupti dignissimos."
+        id: 1,
+        p: "My journey with programming started as a self-taught path driven by curiosity and the desire to build real things, not just follow tutorials. Coming from a non-technical academic background, I had to rely heavily on discipline, consistency, and problem-solving to move forward. Programming gradually shifted from being something I was learning into something I genuinely enjoy doing and thinking about.",
     },
-        {
+    {
         id: 2, 
-        p:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium harum consequatur modi nostrum sequi ipsa quibusdam officia maiores corrupti dignissimos."
+        p:"During my frontend journey, I focused on building solid foundations using modern tools and practices. I worked with technologies like JavaScript, React, Next.js, and Framer Motion, paying close attention to clean UI, performance, and user experience. Through real projects, I learned how to structure applications, think in components, and translate ideas into functional, responsive interfaces rather than just visually appealing pages."
     },
     {
         id: 3, 
-        p:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium harum consequatur modi nostrum sequi ipsa quibusdam officia maiores corrupti dignissimos."
+        p:"Currently, I’m transitioning into the backend world by starting the Node.js track, with the goal of becoming a well-rounded full-stack developer. My focus is on understanding how systems work behind the scenes, building scalable APIs, handling data, and connecting frontend applications to real backend logic. I see this step as a natural continuation of my journey, and I’m committed to growing steadily through real projects and continuous learning."
     }
 ]
 export const TitleClass: string = "title text-3xl capitalize mb-5  text-blue-400 relative "
@@ -39,24 +39,25 @@ interface service {
 }
 
 export const services: service[] = [
-    {
-        id: 1,
-        icon: "imgs/html-5.png",
-        name: "frontend development",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, libero."
-    },
-    {
-        id: 2,
-        icon: "imgs/database-file.png",
-        name: "backend development",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, libero."
-    },
-    {
-        id: 3,
-        icon: "imgs/ux.png",
-        name: "ui ux",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, libero."
-    }
+{
+    id: 1,
+    icon: "imgs/html-5.png",
+    name: "Frontend Development",
+    desc: "Building modern, responsive web applications using React.js and Next.js with a focus on performance, clean code, and reusable components."
+},
+{
+    id: 2,
+    icon: "imgs/database-file.png",
+    name: "Backend Development",
+    desc: "Building and learning backend systems using  Firebase, focusing on authentication, databases, and i am working on learning Node.js "
+},
+{
+    id: 3,
+    icon: "imgs/ux.png",
+    name: "UI / UX",
+    desc: "Creating responsive and user-friendly interfaces using Bootstrap and Tailwind CSS, with attention to layout, usability, and consistency."
+}
+
 ]
 
 interface skill {

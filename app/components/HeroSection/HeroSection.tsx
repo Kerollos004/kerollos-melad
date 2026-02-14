@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import personImage from "../../../public/imgs/kero.jpeg"
+import personImage from "../../../public/imgs/hero.jpg"
 import { ArrowDownCircleFill } from 'react-bootstrap-icons'
 import ExampleComponent from "../AnimatedText/AnimatedText"
 import {motion , Variants} from "framer-motion"

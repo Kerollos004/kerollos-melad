@@ -4,7 +4,7 @@ import "./sideMenu.css"
 import { useMenuContext } from "../../contexts"
 import {  sideMenuLinks } from "../../assets"
 import Image from 'next/image'
-import personImage from "../../../public/imgs/kero.jpeg"
+import personImage from "../../../public/imgs/hero.jpg"
 import { Facebook, Linkedin, TwitterX, Whatsapp, XCircleFill } from 'react-bootstrap-icons'
 import { motion } from 'framer-motion'
 

@@ -1,7 +1,7 @@
 "use client"
 import "./about.css"
 import { about , TitleClass , services , skills  } from "../../assets"
-import personImg from "../../../public/imgs/about_image.jpg"
+import personImg from "../../../public/imgs/about.jpg"
 import Image from 'next/image'
 import { motion, Variants } from "framer-motion"
 //service animations
