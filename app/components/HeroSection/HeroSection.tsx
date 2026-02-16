@@ -56,7 +56,9 @@ return (
             </a>
             <a className={`py-2 px-4  rounded-2xl border flex gap-1.5 items-center border-blue-400  hover:bg-blue-400 
                 ${theme === "dark" ? "text-white" : "text-black"} `}
-                href="#">
+                href="/cv.pdf"
+                download
+            >
                 download cv
                 <ArrowDownCircleFill/>
             </a>
