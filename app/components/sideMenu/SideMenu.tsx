@@ -73,7 +73,7 @@ return (
         <div className="gap-4 w-full flex items-center justify-center">
             <a title='whatsapp' href="https://wa.me/+201270354240">< Whatsapp className=" text-3xl m-0 p-0 text-white  hover:text-blue-600 "/></a>
             <a href="https://x.com/MeladKerollos" title='TwitterX'>< TwitterX className=" text-3xl m-0 p-0 text-white  hover:text-blue-600 "/></a>
-            <a title='linkedin' href="https://www.linkedin.com/in/kerollos-melad-6624a9265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">< Linkedin className=" text-3xl m-0 p-0 text-white  hover:text-blue-600 "/></a>
+            <a title='linkedin' href="https://www.linkedin.com/in/kerollos-melad-6660423b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">< Linkedin className=" text-3xl m-0 p-0 text-white  hover:text-blue-600 "/></a>
             <a title='facebook' href="https://www.facebook.com/kerollos.melad.2025?mibextid=ZbWKwL">< Facebook className=" text-3xl m-0 p-0 text-white hover:text-blue-600 "/></a>
         </div>
 
