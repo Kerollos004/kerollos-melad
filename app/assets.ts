@@ -91,9 +91,9 @@ interface projects {
 export const projects: projects[] = [
 {
     name: "Mr Ecommerce",
-    img: "/imgs/project.jpg",
+    img: "/imgs/mr-ecommerce.webp",
     desc: "A fully responsive e-commerce website with a complete shopping cart and checkout system built using HTML, CSS, Bootstrap, and GSAP.",
-    demo: "https://crud-system-bay-six.vercel.app/",
+    demo: "https://mr-eta-puce.vercel.app/",
     repo: "https://github.com/Kerollos004/mr",
     techs: [
         "/imgs/html-5.png",
@@ -104,7 +104,7 @@ export const projects: projects[] = [
 },
 {
     name: "Admin Panel",
-    img: "/imgs/project.jpg",
+    img: "/imgs/admin-pannel.webp",
     desc: "A fully responsive admin panel featuring a dashboard, products page, users management, and authentication system built with React and Firebase.",
     demo: "https://admin-pannel-9o57.vercel.app/",
     repo: "https://github.com/Kerollos004/admin-pannel",
@@ -116,8 +116,8 @@ export const projects: projects[] = [
 },
 {
     name: "Food App",
-    img: "/imgs/project.jpg",
-    desc: "A simple food application built with React and React Router.",
+    img: "/imgs/food app.webp",
+    desc: "A simple food application built to learn React and React Router.",
     demo: "https://food-app-pied-two.vercel.app/",
     repo: "https://github.com/Kerollos004/food-app",
     techs: [
@@ -127,8 +127,8 @@ export const projects: projects[] = [
 },
 {
     name: "Movie App",
-    img: "/imgs/project.jpg",
-    desc: "A fully responsive movie application built with React and React Router.",
+    img: "/imgs/museum.webp",
+    desc: "A fully responsive movie application built to learn React and React Router.",
     demo: "https://movies-app-six-swart.vercel.app/",
     repo: "https://github.com/Kerollos004/movies-app",
     techs: [
@@ -138,8 +138,8 @@ export const projects: projects[] = [
 },
 {
     name: "Shopping Cart",
-    img: "/imgs/project.jpg",
-    desc: "A fully responsive shopping cart application with checkout functionality built using React, Redux Toolkit, and Tailwind CSS.",
+    img: "/imgs/shopping-cart.webp",
+    desc: "A fully responsive shopping cart application with checkout functionality built to learn React, Redux Toolkit, and Tailwind CSS.",
     demo: "https://shopping-cart-redux.vercel.app/",
     repo: "https://github.com/Kerollos004/shopping-cart-redux",
     techs: [

@@ -2,12 +2,12 @@
 import { TitleClass , projects } from "../../assets";
 import Image from "next/image"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 import { Github , EyeFill } from "react-bootstrap-icons";
 import 'swiper/css';
 import "./projects.css"
 import { motion , Variants } from "framer-motion"; 
-
+import { useThemeContext } from "../../contexts";
 const projectVartians: Variants = {
     hidden: {
         y:-50,
@@ -27,15 +27,14 @@ const projectVartians: Variants = {
 
 const projectVariant: Variants = {
     hidden: {
-        y:-50,
         opacity:0
     },
     show: {
-        y: 0,
         opacity:1,
     }
 }
 export default function Projects() {
+    const {theme} = useThemeContext()
     const pagination = {
         clickable: true,
         renderBullet: function (index:number, className:string) {
@@ -45,22 +44,19 @@ export default function Projects() {
     const projectsHtml = projects.map(project => {
         return (
             <SwiperSlide key={project.name}>
-                <motion.article  className=' project relative h-80 rounded-2xl overflow-hidden   ' variants={projectVariant} >
+                <motion.article  className=' project relative  rounded-2xl overflow-x-hidden bg-blue-400   ' variants={projectVariant} >
                     <Image
                         src={project.img}
                         alt='img'
-                        className='h-full w-full '
+                        className=' w-full pro-img object-cover '
                         width={100}
                         loading="lazy"
                         height={100}
                     />
-                    <h3 className="text-3xl text-white absolute   capitalize left-3.5 bottom-3.5">{project.name }</h3>
-                    <div className=" absolute w-full h-full top-0 -left-full z-10 p-6  text-white layer flex flex-col justify-center  ">
-                        <div className="mb-2.5">
-                            <h3 className="text-xl mb-1.5 "> description :  </h3>
-                            <p> {project.desc} </p>
-                        </div>
-                        <div className="mb-2.5">
+                    <div className="desc mt-4 p-4">
+                        <h3 className={`text-3xl   mb-3  capitalize  ${theme === "dark" ? "text-white":"text-black"}`}>{project.name}</h3>
+                        <p className="my-3"> {project.desc} </p>
+                        <div className="my-2.5">
                             <p className="text-xl mb-2"> skills : </p>
                             <div className="flex gap-3 items-center">
                                 {project.techs.map((tech , i) => {
@@ -71,8 +67,8 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className="flex mt-2.5  gap-2.5 text-white" >
-                            <a href={project.repo} className="p-2 border rounded-2xl flex items-center gap-2 border-blue-400 hover:bg-blue-400" > <Github/> github repo</a>
-                            <a href={project.demo} className="p-2 border rounded-2xl flex items-center gap-2 border-blue-400 hover:bg-blue-400" >  <EyeFill/> live demo</a>
+                            <a href={project.repo} className="p-2 border rounded-2xl flex items-center gap-2 border-white hover:bg-blue-900 hover:border-transparent" > <Github/> github repo</a>
+                            <a href={project.demo} className="p-2 border rounded-2xl flex items-center gap-2 border-white hover:bg-blue-900 hover:border-transparent" >  <EyeFill/> live demo</a>
                         </div>
                     </div>
                 </motion.article>
@@ -100,13 +96,10 @@ return (
             <Swiper
                 // Configure modules
                 pagination={pagination}
-                modules={[Pagination, Autoplay]}
+                modules={[Pagination]}
                 spaceBetween={20}
                 slidesPerView={3}
                 loop={true}
-                autoplay={{
-                    delay: 8000,
-                }}
                 breakpoints={{
                     // when window width is >= 320px
                     320: {

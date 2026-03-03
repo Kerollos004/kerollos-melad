@@ -1,8 +1,8 @@
 .layer{
     background-color: rgba(14, 44, 78, 0.8);
 }
-.project:hover img{
-    transform: scale(1.2);
+.project:hover .pro-img{
+    transform: scaleX(1.2);
 }
 .project:hover .layer{
     left: 0;
