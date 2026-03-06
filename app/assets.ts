@@ -111,7 +111,7 @@ export const projects: projects[] = [
     techs: [
         "/imgs/react.png",
         "/imgs/css-3.png",
-        "/imgs/firebase.png"
+        "/imgs/Firebase.png"
     ]
 },
 {
@@ -144,7 +144,7 @@ export const projects: projects[] = [
     repo: "https://github.com/Kerollos004/shopping-cart-redux",
     techs: [
         "/imgs/react.png",
-        "/imgs/redux.png",
+        "/imgs/Redux.png",
         "/imgs/Tailwind CSS.png"
     ]
 },
@@ -158,7 +158,7 @@ export const projects: projects[] = [
         "/imgs/html-5.png",
         "/imgs/css-3.png",
         "/imgs/js.png",
-        "/imgs/bootstrap.png"
+        "/imgs/Bootstrap.png"
     ]
 }
 ]
