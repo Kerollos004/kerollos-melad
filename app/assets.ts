@@ -99,7 +99,7 @@ export const projects: projects[] = [
         "/imgs/html-5.png",
         "/imgs/css-3.png",
         "/imgs/js.png",
-        "/imgs/bootstrap.png"
+        "/imgs/Bootstrap.png"
     ]
 },
 {
