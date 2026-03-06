@@ -1,13 +1,11 @@
 "use client"
 import { TitleClass , projects } from "../../assets";
 import Image from "next/image"
-import { Swiper, SwiperSlide } from "swiper/react"
-import { Pagination } from 'swiper/modules';
 import { Github , EyeFill } from "react-bootstrap-icons";
-import 'swiper/css';
 import "./projects.css"
 import { motion , Variants } from "framer-motion"; 
 import { useThemeContext } from "../../contexts";
+
 const projectVartians: Variants = {
     hidden: {
         y:-50,
@@ -35,20 +33,14 @@ const projectVariant: Variants = {
 }
 export default function Projects() {
     const {theme} = useThemeContext()
-    const pagination = {
-        clickable: true,
-        renderBullet: function (index:number, className:string) {
-            return '<span class="' + className +  ' cursor-pointer">' + (index + 1) + '</span>';
-        },
-    };
+
     const projectsHtml = projects.map(project => {
         return (
-            <SwiperSlide key={project.name}>
-                <motion.article  className=' project relative  rounded-2xl overflow-x-hidden bg-blue-400   ' variants={projectVariant} >
+                <motion.article  key={project.name} variants={projectVariant} className=' project   rounded-2xl overflow-x-hidden bg-blue-400   '  >
                     <Image
                         src={project.img}
                         alt='img'
-                        className=' w-full pro-img object-cover '
+                        className=' w-full h-80 pro-img object-cover '
                         width={100}
                         loading="lazy"
                         height={100}
@@ -72,7 +64,6 @@ export default function Projects() {
                         </div>
                     </div>
                 </motion.article>
-            </SwiperSlide>
         )
     })
 return (
@@ -92,34 +83,9 @@ return (
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, amount: 0.3 }}
+            className="grid grid-cols-1 gap-3 md:grid-cols-1 lg:grid-cols-2 "
         >
-            <Swiper
-                // Configure modules
-                pagination={pagination}
-                modules={[Pagination]}
-                spaceBetween={20}
-                slidesPerView={3}
-                loop={true}
-                breakpoints={{
-                    // when window width is >= 320px
-                    320: {
-                        slidesPerView: 1,
-                    },
-                    // when window width is >= 480px
-                    480: {
-                        slidesPerView: 1,
-                    },
-                    // when window width is >= 640px
-                    640: {
-                        slidesPerView:2 ,
-                        spaceBetween: 10
-                    }
-                }}
-            >
-                <article>
-                    {projectsHtml}
-                </article>
-            </Swiper>
+            {projectsHtml}
         </motion.article>
 
         <motion.div

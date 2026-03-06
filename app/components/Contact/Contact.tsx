@@ -85,7 +85,7 @@ return (
                 className='p-3.5 bg-blue-400 rounded-3xl col-span-1 md:col-span-2 lg:col-span-2'
             >
                 {inputsHtml}
-                <button className=' p-2 text-black rounded-2xl inline-block text-center w-full bg-gray-200 hover:bg-blue-300 '
+                <button className=' p-2 text-black rounded-2xl inline-block text-center w-full bg-gray-200 hover:bg-blue-900 '
                 >
                     send message
                 </button>
