@@ -74,7 +74,11 @@ export const skills: skill[] = [
     {  name: "react js", img: "/imgs/react.png" },
     {  name: "next js", img: "/imgs/Next.js.png" },
     {  name: "redux toolkit", img: "/imgs/Redux.png" },
-    { name: "firebase", img: "/imgs/Firebase.png"},
+    { name: "firebase", img: "/imgs/Firebase.png" },
+    { name: "node js", img: "/imgs/Node.js.png" },
+    { name: "mongo db", img: "/imgs/MongoDB.png" },
+    { name: "express js", img: "/imgs/Express.png" },
+    { name: "postman", img: "/imgs/Postman.png" },
     { name: "git", img: "/imgs/Git.png" },
     { name: "github", img: "/imgs/GitHub.png" },
 ]
@@ -91,7 +95,7 @@ interface projects {
 export const projects: projects[] = [
 {
     name: "Mr Ecommerce",
-    img: "/imgs/mr-ecommerce.png",
+    img: "/imgs/project.png",
     desc: "A fully responsive e-commerce website with a complete shopping cart and checkout system built using HTML, CSS, Bootstrap, and GSAP.",
     demo: "https://mr-eta-puce.vercel.app/",
     repo: "https://github.com/Kerollos004/mr",
@@ -104,7 +108,7 @@ export const projects: projects[] = [
 },
 {
     name: "Admin Panel",
-    img: "/imgs/admin-pannel.png",
+    img: "/imgs/project.png",
     desc: "A fully responsive admin panel featuring a dashboard, products page, users management, and authentication system built with React and Firebase.",
     demo: "https://admin-pannel-9o57.vercel.app/",
     repo: "https://github.com/Kerollos004/admin-pannel",
@@ -116,7 +120,7 @@ export const projects: projects[] = [
 },
 {
     name: "Food App",
-    img: "/imgs/food app.png",
+    img: "/imgs/project.png",
     desc: "A simple food application built to learn React and React Router.",
     demo: "https://food-app-pied-two.vercel.app/",
     repo: "https://github.com/Kerollos004/food-app",
@@ -127,7 +131,7 @@ export const projects: projects[] = [
 },
 {
     name: "Movie App",
-    img: "/imgs/movie-app.png",
+    img: "/imgs/project.png",
     desc: "A fully responsive movie application built to learn React and React Router.",
     demo: "https://movies-app-six-swart.vercel.app/",
     repo: "https://github.com/Kerollos004/movies-app",
@@ -138,7 +142,7 @@ export const projects: projects[] = [
 },
 {
     name: "Shopping Cart",
-    img: "/imgs/shopping-cart.png",
+    img: "/imgs/project.png",
     desc: "A fully responsive shopping cart application with checkout functionality built to learn React, Redux Toolkit, and Tailwind CSS.",
     demo: "https://shopping-cart-redux.vercel.app/",
     repo: "https://github.com/Kerollos004/shopping-cart-redux",
@@ -150,7 +154,7 @@ export const projects: projects[] = [
 },
 {
     name: "Mahmoud Khalil Museum",
-    img: "/imgs/museum.png",
+    img: "/imgs/project.png",
     desc: "A fully responsive graduation project website designed for an archaeology faculty student.",
     demo: "https://mahmoud-khalil-museum.vercel.app/",
     repo: "https://github.com/Kerollos004/mahmoud-khalil-museum",

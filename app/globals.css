@@ -35,7 +35,7 @@ body.light main {
     background-size: 48px 48px, 48px 48px, 100% 100%, 100% 100%;
 }
 body.dark main {
-    background-color: rgb(38, 41, 53);
+    background-color: rgb(53, 56, 71);
     background-image:
         linear-gradient(to right, rgba(71,85,105,0.8) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(71,85,105,0.8) 1px, transparent 1px),

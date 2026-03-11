@@ -37,14 +37,14 @@ export default function Projects() {
     const projectsHtml = projects.map(project => {
         return (
                 <motion.article  key={project.name} variants={projectVariant} className=' project   rounded-2xl overflow-x-hidden bg-blue-400   '  >
-                    {/* <Image
+                    <Image
                         src={project.img}
                         alt='img'
-                        className=' w-full h-80 pro-img object-cover '
+                        className=' w-full h-80 pro-img object- '
                         width={100}
                         loading="lazy"
                         height={100}
-                    /> */}
+                    />
                     <div className="desc mt-4 p-4">
                         <h3 className={`text-3xl   mb-3  capitalize  ${theme === "dark" ? "text-white":"text-black"}`}>{project.name}</h3>
                         <p className="my-3"> {project.desc} </p>
