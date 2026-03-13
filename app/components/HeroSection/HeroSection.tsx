@@ -56,7 +56,7 @@ return (
             </a>
             <a className={`py-2 px-4  rounded-2xl border flex gap-1.5 items-center border-blue-400  hover:bg-blue-400 
                 ${theme === "dark" ? "text-white" : "text-black"} `}
-                href="/cv.pdf"
+                href="/my-cv.pdf"
                 download
             >
                 download cv
